@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nivia Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #007bff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Cards */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact Form */
+input, textarea {
+  width: 260px;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header>
+<h1>I build simple websites</h1>
+<p>Clean, modern websites for personal and business use</p>
+</header>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Services</h2>
+
+<div class="container">
+  <div class="card">
+    <h3>Business Website</h3>
+    <p>Simple websites for shops and local businesses</p>
+  </div>
+
+  <div class="card">
+    <h3>Personal Website</h3>
+    <p>Portfolio websites for individuals</p>
+  </div>
+
+  <div class="card">
+    <h3>Basic Web Pages</h3>
+    <p>Simple HTML pages for any purpose</p>
+  </div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a student learning web development. I create simple and clean websites using HTML and CSS and improving my skills every day.
+</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form>
+<input type="text" placeholder="Your Name"><br>
+<input type="email" placeholder="Your Email"><br>
+<textarea placeholder="Your Message"></textarea><br>
+<button type="submit">Send</button>
+</form>
+
+<p>Email: niviaelsa23@gmail.com</p>
+<p>WhatsApp: +918595761874</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Nivia Portfolio</p>
+</footer>
+
+</body>
+</html>
